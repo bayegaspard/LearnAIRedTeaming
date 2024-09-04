@@ -1,0 +1,17 @@
+<!-- flask_app/templates/run.html -->
+
+{% extends 'base.html' %}
+{% block content %}
+<h1>Run Services</h1>
+<form method="POST">
+    <div class="mb-3">
+        <label for="service" class="form-label">Choose a Service</label>
+        <select class="form-select" id="service" name="service">
+            <option value="ctfd">CTFd</option>
+            <option value="challenge1">Challenge 1</option>
+            <option value="challenge2">Challenge 2</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Run</button>
+</form>
+{% endblock %}
