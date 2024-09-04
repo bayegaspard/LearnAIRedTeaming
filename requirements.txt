@@ -1,5 +1,6 @@
 Flask==2.1.1
 requests==2.26.0
 tqdm==4.62.3
-#Flask==2.3.3
 Werkzeug==2.3.7
+Flask-Session==0.4.0  # Add this if using session management
+
